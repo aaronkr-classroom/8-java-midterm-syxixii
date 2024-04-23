@@ -29,6 +29,7 @@ boolean isAvailable();
 void setAvailable(boolean available);
 ```
 
+
 **`LibraryBook.java`**
 
 Create a LibraryBook class that implements the Book interface. Add the following instance variables and methods.

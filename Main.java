@@ -3,7 +3,7 @@ public class Main {
 	public static void main(String[] args) {
 		// 새 LibrarySystem 개체 만들기
 		LibrarySystem ls = new LibrarySystem();
-		
+
 		// 새 Book 만들기
 		Book book1 = new LibraryBook("ISBN1234", "JSP 웹 프로그래밍", "송미영", 2018);
 		Book book2 = new LibraryBook("ISBN1235", "안드로이드 프로그래밍", "우재남", 2022);
@@ -15,24 +15,24 @@ public class Main {
 		ls.addBook(book2);
 		ls.addBook(book3);
 		ls.addBook(book4);
-		
+
 		// 모든 Book 출력
 		ls.displayAllBooks();
-		
+
 		// Book 삭제
 		ls.removeBook("스크래치 프로그래밍");
-		
+
 		// Book 빌립니다
 		ls.borrowBook("JAVA 마스터");
 		ls.borrowBook("안드로이드 프로그래밍");
-		
+
 		// 모든 Book 출력
 		ls.displayAllBooks();
-		
+
 		// Book 반납합니다
 		ls.returnBook("안드로이드 프로그래밍");
-		
-    	// 모든 Book 출력
+
+		// 모든 Book 출력
 		ls.displayAllBooks();
 	}
 
